@@ -1,0 +1,107 @@
+/************************************************
+THE BURGER FINDER PROJECT
+********************************************/
+.projects-title {
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    border-bottom: gray solid 2px;
+    padding: .5%;
+}
+
+.projects-img-finder img{
+    width:100%; 
+    margin: 10%; 
+    border: gray solid 1px;
+}
+.projects-img-finder p{
+    font-size: 30px;
+    color: gray;
+    width:80%; 
+    margin: 20%; 
+    
+}
+
+.projects-img-finder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.projects-img-finder a{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+.projects-img-finder p :hover{
+    background-color: rgba(102, 0, 0, 0.205);
+    padding: 15%;
+    transition: all 300ms;
+}
+.logo-img img{
+    width: 50px;
+    filter: grayscale(80%);
+    
+   
+}
+.logo-img {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    border: gray solid 1px;
+}
+
+/*******************************************************
+THE TICTACTOE PROJECT
+***********************************************/
+.projects-img-dam {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    border: rgb(197, 197, 197) solid 1px;
+}
+.projects-img-dam a{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+.projects-img-dam p{
+    font-size: 30px;
+    color: gray;
+    width:80%; 
+    margin: 20%; 
+    
+}
+.projects-img-dam p :hover{
+    background-color: rgba(102, 0, 0, 0.205);
+    padding: 15%;
+    transition: all 300ms;
+}
+.projects-img-dam img{
+    width:100%; 
+    margin: 10%; 
+}
+
+/************************************************
+THE DAM PROJECT
+***********************************************/
+.projects-img-tictactoe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    border: rgb(197, 197, 197) solid 1px;
+}
+.projects-img-tictactoe a {
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+.projects-img-tictactoe p {
+    font-size: 30px;
+    color: gray;
+    width:80%; 
+    margin: 20%;   
+}
+.projects-img-tictactoe p :hover{
+    background-color: rgba(102, 0, 0, 0.205);
+    padding: 15%;
+    transition: all 300ms;
+}
+
+.projects-img-tictactoe img{
+    width:100%; 
+    margin: 10%; 
+}

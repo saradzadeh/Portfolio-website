@@ -1,0 +1,32 @@
+.title-in-cv{
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    border-bottom: gray solid 2px;
+    margin: 2%;  
+}
+
+.grid-cv {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left-box {
+    background-color: rgb(88, 88, 88);
+}
+
+.cv-link {
+    font-size: 25px;
+    color: gray;
+    
+}
+.cv-link :hover{
+    background-color:rgba(0, 0, 0, 0.301);
+    padding: 1% 40% 1% 40%;
+    transition: all 300ms;
+}
+.left-box img{
+    width: 100%;
+    
+    top: 50px;
+
+}
